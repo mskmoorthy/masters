@@ -54,6 +54,5 @@ f3 = [     0,     0,      0,      0,    0,     0,      0,     VR3,  0,  0,  -1];
 %f = f1 + f2 + f3;
 f = [     1,     1,      1,      1,    1,     1,      1,        1,  0,  0,  0];
 
-%now solve the goddamn thing
 [x, fval] = linprog(f, A, b, Aeq, beq);
 
